@@ -18,7 +18,7 @@ html, body {
     --midnight: #104F55;
 
     /* Gradient Colors */
-    --sky: background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     
     /* Themes Font Family */
     --Abel: 'Abel', cursive;
@@ -40,12 +40,34 @@ a {
 ul {
     list-style-type: none;
 }
-
 .flex-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
+ h1 {
+     font-family: var(--Lexend);
+     font-size: 2.5rem;
+ }
+
+ h2 {
+     font-family: var(--Lexend);
+ }
+
+ h3 {
+     font-family: var(--Abel);
+     font-size: 1.3rem;
+ }
+
+ button.btn {
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: var(--Levvic);
+    cursor: pointer
+ }
+
 
 /*----x---Global classes ---x----*/
 
@@ -130,6 +152,43 @@ ul {
 /*---x---- Navigation -------x----*/
 
 
+
+/*-----------Site Content -----------*/
+
+/*----------Site Title -----------*/
+
+main .site-title {
+    background-image: url('../assets/Background-image.png');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background {
+    margin-top: 10rem;
+    text-align: center;
+    color: var(--white)
+}
+
+main .site-title .site-background h1, h3 {
+    margin: .3rem;
+}
+
+main .site-title .btn {
+    margin: 1.8rem;
+    background: var(--sky);
+}
+
+main .site-title .btn:hover {
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white) 
+}
+
+/*-----x----Site Title -----x-----*/
+
+/*----x-----Site Content -----x-----*/
 
 
 
