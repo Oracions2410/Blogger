@@ -271,6 +271,17 @@ main .owl-nav {
 
 
 
+/*----------Site Content --------------*/
+
+main .site-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+/*---x------Site Content ------x-------*/
+
+
+
 
 /*----x-----Site Content -----x-----*/
 
